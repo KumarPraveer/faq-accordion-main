@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+}
+
+.top_img_section {
+  width: 100%;
+  height: 250px;
+}
+.top_img_section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.awesome-container {
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+  transform: translateY(-100px);
+  border-radius: 1em;
+  padding: 2em;
+}
+@media (max-width: 376px) {
+  .awesome-container {
+    width: 90%;
+  }
+}
+@media (max-width: 830px) {
+  .awesome-container {
+    width: 80%;
+  }
+}
+.awesome-container .header {
+  font-size: 2.5em;
+  font-weight: 700;
+  padding: 0.4em 0 0.8em;
+}
+.awesome-container .tic {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.awesome-container .tic .tic-left {
+  align-items: center;
+}
+.awesome-container .tic .tic-left .tic-head {
+  font-weight: bold;
+  padding: 1em 0;
+}
+.awesome-container .tic .tic-left .tic-head :hover {
+  color: hsl(275, 100%, 97%);
+  cursor: pointer;
+}
+.awesome-container .tic .tic-left .tic-content {
+  color: gray;
+  padding: 1em 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+.awesome-container .tic .tic-right img {
+  cursor: pointer;
+  padding: 0.4em 0 0.8em;
+}
+
+.tic-conten {
+  color: gray;
+  padding: 1em 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.tic-conte {
+  color: gray;
+  padding: 1em 0;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.tic-cont {
+  color: gray;
+  padding: 1em 0;
+  font-size: 14px;
+  line-height: 22px;
+}/*# sourceMappingURL=style.css.map */
